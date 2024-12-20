@@ -5,3 +5,8 @@ runtime: node
 build_image: fnproject/node:16-dev
 run_image: fnproject/node:16
 entrypoint: node func.js
+signing_details:
+    image_compartment_id: ocid1.compartment.oc1..aaaaaaaagneag5dt7c7hkhxmf7wjfh2fm2swrjfihqypin45ffijxz5kv22a
+    kms_key_id: ocid1.key.oc1.ap-hyderabad-1.gftugtezaahbo.abuhsljriykn2lqyz4wu4rktms57zwuzzrhcv7yyxypzuwj625u6ktc5ygeq
+    kms_key_version_id: ocid1.keyversion.oc1.ap-hyderabad-1.gftugtezaahbo.ieqcm5bu2yaaa.abuhsljrn433s77qzkyents5wmv3kkgpr7lmfywhd4zpnxzqostfwyoeo7ra
+    signing_algorithm: SHA_224_RSA_PKCS_PSS
