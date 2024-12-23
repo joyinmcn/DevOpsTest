@@ -5,6 +5,6 @@ fdk.handle(function(input){
   if (input.name) {
     name = input.name;
   }
-  console.log('\nInside Node Hello World function message for test')
+  console.log('\nInside Node Hello World function message for test of apprval flow through mail')
   return {'message': 'Hello ' + name}
 })
